@@ -1,0 +1,10 @@
+node_modules
+dist
+www
+platforms
+.tmp
+app/styles/**/*.css
+.sass-cache
+bower_components
+app/bower_components
+*.log
