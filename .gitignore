@@ -2,6 +2,7 @@ node_modules
 dist
 www
 platforms
+release
 .tmp
 app/styles/**/*.css
 .sass-cache

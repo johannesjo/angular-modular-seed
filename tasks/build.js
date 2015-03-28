@@ -8,7 +8,7 @@ var gulp = require('gulp');
  */
 
 
-var clean = require('gulp-clean');
+var del = require('del');
 var gulpif = require('gulp-if');
 var minifyHtml = require('gulp-minify-html');
 var minifyCss = require('gulp-minify-css');
@@ -55,8 +55,7 @@ gulp.task('deploy', function ()
 
 gulp.task('cleanDist', function ()
 {
-    return gulp.src('dist')
-        .pipe(clean());
+    return del(config.dist);
 });
 
 

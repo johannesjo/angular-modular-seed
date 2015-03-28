@@ -8,7 +8,7 @@ Modular seed for angular. Used as a basis for [generator-mod-angular](https://gi
 **Run**:
 * ```gulp``` for development
 * ```gulp build``` for standard web-build
-* ```cordova add plattform [plattform]``` to get started with hybrid-app development
+* ```cordova platform add [plattform]``` to get started with hybrid-app development
 * ```gulp emulate``` for using an emulator for development
 * ```gulp build && gulp buildCordova``` for building the hybrid-app
 
