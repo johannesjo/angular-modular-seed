@@ -1,12 +1,25 @@
 # angular-modular-seed
-Modular seed for angular
+Modular seed for angular. Used as a basis for [generator-mod-angular](https://github.com/johannesjo/generator-mod-angular).
+
+# getting started
+1. If done already install node, gulp, bower and cordova
+2. Just create a copy of the project and adjust the basic files to your liking
+
+**Run**:
+* ```gulp``` for development
+* ```gulp build``` for standard web-build
+* ```cordova add plattform [plattform]``` to get started with hybrid-app development
+* ```gulp emulate``` for using an emulator for development
+* ```gulp build && gulp buildCordova``` for building the hybrid-app
+
 
 # idea behind this project
 There are quite a lot of seeds and generators out there but non so far which satisfies my needs. What I want to achieve in a number of bullet points is:
 * a truly modular generator
 * uses sass and lib-sass
-* provides an easy way to compile your web-app to a hybrid app without assuming any frameworks, while offering an easy integration for the most common onces
+* provides an easy way to compile your web-app to a hybrid app without assuming any frameworks, while offering an easy integration for the most common ones
 * gives you a head start for a modular css and JavaScript project structure
+
 # file-structure of app folder
 ```
 index.html
@@ -124,7 +137,3 @@ tasks/
 www/          // ignored
 
 ```
-
-# nice feature ideas
-* hook for opening created files in favorite editor/ide
-* ...
