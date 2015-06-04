@@ -1,7 +1,7 @@
 # angular-modular-seed
 Modular seed for angular. Used as a basis for [generator-mod-angular](https://github.com/johannesjo/generator-mod-angular).
 
-** !!! This is currently not up to date. If you're interested in a modular seed, just run [generator-mod-angular](https://github.com/johannesjo/generator-mod-angular) once and use the output !!!**
+**!!! This is currently not up to date. If you're interested in a modular seed, just run [generator-mod-angular](https://github.com/johannesjo/generator-mod-angular) once and use the output !!!**
 
 
 # getting started
