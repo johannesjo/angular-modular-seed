@@ -1,6 +1,9 @@
 # angular-modular-seed
 Modular seed for angular. Used as a basis for [generator-mod-angular](https://github.com/johannesjo/generator-mod-angular).
 
+** This is currently not up to date. If you're interested in a modular seed, just run [generator-mod-angular](https://github.com/johannesjo/generator-mod-angular) once and use the output **
+
+
 # getting started
 1. If done already install node, gulp, bower and cordova
 2. Just create a copy of the project and adjust the basic files to your liking
